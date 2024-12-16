@@ -6,7 +6,7 @@
 
 
 ## 2. Apache Web Server
-'Sudo Apt Update'
+`ini teks satu baris dalam kolom abu-abu`
 >
 > sudo apt install apache2 -y
 >
