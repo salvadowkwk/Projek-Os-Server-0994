@@ -35,5 +35,18 @@
   + `SHOW DATABASES;`
 
 
+## 4. PHP
+- `sudo apt install php libapache2-mod-php php-mysql php-cli php-curl php-zip php-gd -y`
+- Tes PHP:
+  + Buat file: /var/www/html/info.php.
+    <?php
+    phpinfo();
+    ?>
+- Akses: http://<IP-Server>/info.php
+
+
+## 5. 
+
+
 
 
