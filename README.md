@@ -10,8 +10,8 @@
 
 - `sudo apt install apache2 -y`
 
-  Konfigurasi Direktori Web :
-> > Direktori utama : /var/www/html/
+- Konfigurasi Direktori Web :
+  + Direktori utama : /var/www/html/
 
 
 ## 3. 
