@@ -22,17 +22,17 @@
 ## 3. MySQL Database
 - `sudo apt install mysql-server -y`
 - Konfigurasi Database WordPress :
-  + sudo mysql
+  + `sudo mysql`
  
-  + CREATE DATABASE wordpress;
+  + `CREATE DATABASE wordpress;`
 
-    CREATE USER 'salvado_user'@'%' IDENTIFIED BY 'Slvd.Ags_160825';
+    `CREATE USER 'salvado_user'@'%' IDENTIFIED BY 'Slvd.Ags_160825';`
 
-    GRANT ALL PRIVILEGES ON wordpress.* TO 'salvado_user'@'%';
+    `GRANT ALL PRIVILEGES ON wordpress.* TO 'salvado_user'@'%';`
 
-    FLUSH PRIVILEGES;
+    `FLUSH PRIVILEGES;`
 
-  + SHOW DATABASES;
+  + `SHOW DATABASES;`
 
 
 
