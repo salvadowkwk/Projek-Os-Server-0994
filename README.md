@@ -16,7 +16,7 @@
     * `sudo chown -R www-data:www-data /var/www/html`
     * `sudo chmod -R 755 /var/www/html`
 
-- Tes Server : Akses melalui browser: http://<IP-Server>
+- Tes Server : Akses melalui browser: http://IP-Server
 
 
 ## 3. MySQL Database
@@ -42,10 +42,19 @@
     <?php
     phpinfo();
     ?>
-- Akses: http://<IP-Server>/info.php
+- Akses: http://IP-Server/info.php
 
 
-## 5. 
+## 5. FTP (vsftpd)
+- `sudo apt install vsftpd -y`
+  + Edit file konfigurasi:
+    `sudo nano /etc/vsftpd.conf`
+  + Pastikan parameter berikut aktif:
+    `anonymous_enable=NO`
+    `local_enable=YES`
+    `write_enable=YES`
+  + Restart
+    `sudo systemctl restart vsftpd`
 
 
 
