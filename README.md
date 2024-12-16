@@ -14,6 +14,8 @@
   + Direktori utama : /var/www/html/
   + Ubah izin :
     * sudo chown -R www-data:www-data /var/www/html
+    * sudo chmod -R 755 /var/www/html
 
+- Tes Server : Akses melalui browser: http://<IP-Server>
 ## 3. 
 
