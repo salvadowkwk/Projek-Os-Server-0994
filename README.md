@@ -7,6 +7,7 @@
 
 ## 2. Apache Web Server
 > Sudo Apt Update
+>
 > sudo apt install apache2 -y
 >
 > Konfigurasi Direktori Web :
