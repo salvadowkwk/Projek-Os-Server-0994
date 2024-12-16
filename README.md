@@ -25,8 +25,11 @@
   + sudo mysql
  
   + CREATE DATABASE wordpress;
+
     CREATE USER 'salvado_user'@'%' IDENTIFIED BY 'Slvd.Ags_160825';
+
     GRANT ALL PRIVILEGES ON wordpress.* TO 'salvado_user'@'%';
+
     FLUSH PRIVILEGES;
 
 
