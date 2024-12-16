@@ -32,5 +32,8 @@
 
     FLUSH PRIVILEGES;
 
+  + SHOW DATABASES;
+
+
 
 
