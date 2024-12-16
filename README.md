@@ -6,9 +6,9 @@
 
 
 ## 2. Apache Web Server
-`ini teks satu baris dalam kolom abu-abu`
->
-> sudo apt install apache2 -y
+`Sudo Apt Update`
+`sudo apt install apache2 -y`
+
 >
 > Konfigurasi Direktori Web :
 > > Direktori utama : /var/www/html/
