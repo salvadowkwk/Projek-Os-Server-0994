@@ -12,7 +12,8 @@
 
 - Konfigurasi Direktori Web :
   + Direktori utama : /var/www/html/
-
+  + Ubah izin :
+    * sudo chown -R www-data:www-data /var/www/html
 
 ## 3. 
 
