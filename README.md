@@ -10,12 +10,17 @@
 
 - `sudo apt install apache2 -y`
 
-- Konfigurasi Direktori Web :
+- `Konfigurasi Direktori Web :`
   + Direktori utama : /var/www/html/
   + Ubah izin :
     * sudo chown -R www-data:www-data /var/www/html
     * sudo chmod -R 755 /var/www/html
 
-- Tes Server : Akses melalui browser: http://<IP-Server>
-## 3. 
+- `Tes Server : Akses melalui browser: http://<IP-Server>`
+
+
+## 3. MySQL Database
+- `sudo apt install mysql-server -y`
+- `Konfigurasi Database WordPress :`
+
 
