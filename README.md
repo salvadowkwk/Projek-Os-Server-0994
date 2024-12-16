@@ -10,17 +10,24 @@
 
 - `sudo apt install apache2 -y`
 
-- `Konfigurasi Direktori Web :`
+- Konfigurasi Direktori Web :
   + Direktori utama : /var/www/html/
   + Ubah izin :
-    * sudo chown -R www-data:www-data /var/www/html
-    * sudo chmod -R 755 /var/www/html
+    * `sudo chown -R www-data:www-data /var/www/html`
+    * `sudo chmod -R 755 /var/www/html`
 
-- `Tes Server : Akses melalui browser: http://<IP-Server>`
+- Tes Server : Akses melalui browser: http://<IP-Server>
 
 
 ## 3. MySQL Database
 - `sudo apt install mysql-server -y`
-- `Konfigurasi Database WordPress :`
+- Konfigurasi Database WordPress :
+  + sudo mysql
+ 
+  + CREATE DATABASE wordpress;
+    CREATE USER 'salvado_user'@'%' IDENTIFIED BY 'Slvd.Ags_160825';
+    GRANT ALL PRIVILEGES ON wordpress.* TO 'salvado_user'@'%';
+    FLUSH PRIVILEGES;
+
 
 
